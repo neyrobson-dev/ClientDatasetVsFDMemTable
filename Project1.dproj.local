@@ -1,2 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject/>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/08/03 16:17:23.174,=C:\Users\k2.ney\Downloads\ClientDatasetVsFDMemTable\Faker.pas</Transaction>
+    <Transaction>2022/08/03 17:04:32.689,C:\Users\k2.ney\Downloads\ClientDatasetVsFDMemTable\Faker.pas=</Transaction>
+    <Transaction>2022/08/03 17:08:26.313,=C:\Users\k2.ney\Downloads\ClientDatasetVsFDMemTable\Faker.pas</Transaction>
+  </Transactions>
+</BorlandProject>

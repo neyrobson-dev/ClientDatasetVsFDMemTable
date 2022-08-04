@@ -4,7 +4,7 @@ object Form1: TForm1
   BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
   Caption = 'TClientDataSet VS TFDMemTable'
-  ClientHeight = 265
+  ClientHeight = 317
   ClientWidth = 399
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -52,7 +52,7 @@ object Form1: TForm1
   end
   object btnAppend: TButton
     Left = 17
-    Top = 108
+    Top = 106
     Width = 135
     Height = 21
     Caption = 'Append'
@@ -61,7 +61,7 @@ object Form1: TForm1
   end
   object btnFDEmptyDataSet: TButton
     Left = 252
-    Top = 181
+    Top = 206
     Width = 135
     Height = 21
     Caption = 'EmptyDataSet'
@@ -70,7 +70,7 @@ object Form1: TForm1
   end
   object btnEmptyDataSet: TButton
     Left = 17
-    Top = 183
+    Top = 206
     Width = 135
     Height = 21
     Caption = 'EmptyDataSet'
@@ -79,7 +79,7 @@ object Form1: TForm1
   end
   object btnSaveToFile: TButton
     Left = 17
-    Top = 133
+    Top = 156
     Width = 135
     Height = 21
     Caption = 'SaveToFile'
@@ -88,7 +88,7 @@ object Form1: TForm1
   end
   object btnFDSaveToFile: TButton
     Left = 252
-    Top = 131
+    Top = 156
     Width = 135
     Height = 21
     Caption = 'SaveToFile'
@@ -97,7 +97,7 @@ object Form1: TForm1
   end
   object btnLoadFromFile: TButton
     Left = 17
-    Top = 208
+    Top = 231
     Width = 135
     Height = 21
     Caption = 'LoadFromFile'
@@ -106,7 +106,7 @@ object Form1: TForm1
   end
   object btnFDLoadFromFile: TButton
     Left = 252
-    Top = 206
+    Top = 231
     Width = 135
     Height = 21
     Caption = 'LoadFromFile'
@@ -115,7 +115,7 @@ object Form1: TForm1
   end
   object btnSaveToStream: TButton
     Left = 17
-    Top = 158
+    Top = 181
     Width = 135
     Height = 21
     Caption = 'SaveToStream'
@@ -124,7 +124,7 @@ object Form1: TForm1
   end
   object btnFDSaveToStream: TButton
     Left = 252
-    Top = 156
+    Top = 181
     Width = 135
     Height = 21
     Caption = 'SaveToStream'
@@ -133,7 +133,7 @@ object Form1: TForm1
   end
   object btnFDLoadFromStream: TButton
     Left = 252
-    Top = 231
+    Top = 256
     Width = 135
     Height = 21
     Caption = 'LoadFromStream'
@@ -142,7 +142,7 @@ object Form1: TForm1
   end
   object btnLoadFromStream: TButton
     Left = 17
-    Top = 233
+    Top = 256
     Width = 135
     Height = 21
     Caption = 'LoadFromStream'
@@ -220,5 +220,41 @@ object Form1: TForm1
     Caption = '10000000'
     TabOrder = 19
     OnClick = AjustaCount
+  end
+  object btnFDInsert: TButton
+    Left = 252
+    Top = 131
+    Width = 135
+    Height = 21
+    Caption = 'Insert'
+    TabOrder = 20
+    OnClick = btnFDInsertClick
+  end
+  object btnInsert: TButton
+    Left = 17
+    Top = 131
+    Width = 135
+    Height = 21
+    Caption = 'Insert'
+    TabOrder = 21
+    OnClick = btnInsertClick
+  end
+  object btnFDCopyData: TButton
+    Left = 252
+    Top = 282
+    Width = 135
+    Height = 21
+    Caption = 'CopyData'
+    TabOrder = 22
+    OnClick = btnFDCopyDataClick
+  end
+  object btnCopyData: TButton
+    Left = 17
+    Top = 282
+    Width = 135
+    Height = 21
+    Caption = 'CopyData'
+    TabOrder = 23
+    OnClick = btnCopyDataClick
   end
 end
